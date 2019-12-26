@@ -1,11 +1,4 @@
-default: install-yay install-packages enable-nm link-config set-shell sync-neovim show-notes
-
-install-yay:
-	./install-yay.sh
-
-install-packages:
-	yay -S --needed --noconfirm `cat packages.txt`
-
+default: link-config set-shell sync-neovim sho
 
 link-config:
 	stow --restow `ls -d */`
