@@ -6,9 +6,6 @@ install-yay:
 install-packages:
 	yay -S --needed --noconfirm `cat packages.txt`
 
-enable-nm:
-	sudo systemctl enable NetworkManager
-	sudo systemctl start NetworkManager
 
 link-config:
 	stow --restow `ls -d */`
