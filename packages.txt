@@ -1,33 +1,15 @@
 aspell aspell-en
 base-devel
-clojure clj-kondo-bin joker-bin
-compton
-cowsay
-dunst
-feh
-firefox
 fish
 fzf
 git
-gnome-keyring
 gnupg
 htop
-i3 parcellite xclip xautolock xfce4-screenshooter
-kitty
-leiningen
 neovim python-pynvim python2-pynvim
-networkmanager network-manager-applet
 nodejs npm
 openssh
-pacman-contrib reflector
-playerctl
-pulseaudio pa-applet-git
-redshift geoclue2
+pacman-contrib
 ripgrep
-rofi rofi-dmenu
 stow
-thunar tumbler thunar-volman thunar-archive-plugin file-roller p7zip unrar gvfs
+p7zip unrar
 tree
-ttf-dejavu ttf-fira-code otf-fira-code noto-fonts-emoji noto-fonts
-xf86-input-synaptics xorg-server xorg-xbacklight xorg-xmodmap xorg-xrandr
-xorg-xinit
